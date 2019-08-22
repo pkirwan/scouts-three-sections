@@ -504,7 +504,7 @@ container styles
 	line-height: 100px;
 	text-align: center;
 }
-#logocontiner img {
+#logocontainer img {
 	max-height:100%;
 	max-width:100%;
 	position: relative;
