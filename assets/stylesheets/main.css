@@ -500,7 +500,7 @@ container styles
 ==============================================
 */
 #logocontainer {
-	height: 100px;
+	height: 70px;
 	line-height: 100px;
 	text-align: center;
 }
@@ -521,16 +521,10 @@ image styles
 	width: 100px;
 }
 .beaverslogo {
-	height: 92px; 
-	width: 332px;
-}
-.cubslogo {
-	height: 85px; 
-	width: 238px;
+	width: 250px;
 }
 .scoutslogo {
-	height: 55px; 
-	width: 301px;
+	width: 250px;
 }
 .goraiselogo {
 	height: 22px; 
