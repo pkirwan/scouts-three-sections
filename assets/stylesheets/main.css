@@ -496,6 +496,16 @@ badge images
 }
 /*
 ==============================================
+container styles
+==============================================
+*/
+#logocontainer {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+/*
+==============================================
 image styles
 ==============================================
 */
@@ -506,14 +516,20 @@ image styles
 .beaverslogo {
 	height: 92px; 
 	width: 332px;
+	max-height:100%;
+	max-width:100%;
 }
 .cubslogo {
 	height: 85px; 
 	width: 238px;
+	max-height:100%;
+	max-width:100%;
 }
 .scoutslogo {
 	height: 55px; 
 	width: 301px;
+	max-height:100%;
+	max-width:100%;
 }
 .goraiselogo {
 	height: 22px; 
