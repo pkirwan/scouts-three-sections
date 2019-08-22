@@ -499,7 +499,7 @@ badge images
 container styles
 ==============================================
 */
-#cubslogo img {
+#cubslogo {
 	transform: translateY(-50%);
 }
 #logocontainer {
