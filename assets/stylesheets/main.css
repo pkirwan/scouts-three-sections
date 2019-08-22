@@ -499,12 +499,12 @@ badge images
 container styles
 ==============================================
 */
-#logocontainer {
+.logocontainer {
 	height: 70px;
 	line-height: 100px;
 	text-align: center;
 }
-#logocontainer img {
+.logocontainer img {
 	max-height:100%;
 	max-width:100%;
 	position: relative;
