@@ -499,9 +499,6 @@ badge images
 container styles
 ==============================================
 */
-#cubslogo {
-	transform: translateY(-50%);
-}
 #logocontainer {
 	height: 70px;
 	line-height: 100px;
@@ -513,6 +510,9 @@ container styles
 	position: relative;
 	top: 50%;
 	transform: translateY(-40%);
+}
+#cubslogo {
+	transform: translateY(-50%);
 }
 /*
 ==============================================
