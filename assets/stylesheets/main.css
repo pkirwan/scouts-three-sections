@@ -95,7 +95,7 @@ grid
 	outline: 1px solid transparent;
 	border-radius: 5px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 864px) {
 	.container {
 		padding: 0 70px;
 	}
@@ -159,7 +159,7 @@ row
 	color: #888;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 864px) {
 	.row {
 		padding: 20px 70px 30px 70px;
 	}
@@ -172,6 +172,9 @@ typography
 h1, p {
 	margin-bottom: 22px;
 }
+p {
+	font-size: 15px;
+}
 h1, h2, h4, h5 {
 	font-family: 'Nunito Sans', sans-serif;
 	color: #7413dc;
@@ -182,7 +185,7 @@ h1 {
 }
 h2 {
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 44px;
 }
 h3 {
@@ -240,7 +243,7 @@ about
 .about {
 	color: #f9f2e7;
 	line-height: 20px;
-	padding: 20px 11px 0 11px;
+	padding: 5px 11px;
 	text-align: center;
 }
 .about h2 {
@@ -261,7 +264,7 @@ about
     width: auto\9; /* ie8 */
 	outline: 1px solid transparent;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 864px) {
 	.about {
 		padding-left: 80px;
 		padding-right: 80px;
@@ -304,17 +307,18 @@ header
 .tagline {
 	margin: 10px 0;
 	text-align: center;
+	font-size:17px;
 }
 .nav {
-	font-size: 18px;
+	font-size: 16px;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 10px 0;
+	padding: 8px 0;
 }
 .nav li {
 	display: inline-block;
 	vertical-align: top;
-	margin:11px 0px;
+	margin: 11px 0px;
 }
 .nav a {
 	padding: 10px 10px;
@@ -323,12 +327,15 @@ header
 	color: #7413dc;
 	background: #fff;
 }
-@media screen and (min-width: 510px) {
-.nav li {
-	margin: 0px;
+@media screen and (min-width: 568px) {
+	.nav li {
+		margin: 0px;
+	}
+	.about {
+		padding: 15px 11px 0px 11px;
+	}
 }
-}
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1048px) {
 	.logo {
 		float: left;
 		height: 100px;
@@ -336,7 +343,7 @@ header
 	.logotext {
 		float: left;
 		position:relative;
-		margin: 42px 15px;
+		margin: 39px 15px;
 		top: 50%;
 	}
 	.logo img {
@@ -353,15 +360,17 @@ header
 	}
 	.nav {
 		text-align: right;
-		font-size: 16px;
 	}
 	.nav li.last-child {
 		margin-right: 0;
 	}
 }
-@media screen and (min-width: 1180px) {
-	.nav {
-		font-size: 18px;
+@media screen and (min-width: 1048px) {
+	h2 {
+		font-size: 20px;
+	}
+	p {
+		font-size: inherit;
 	}
 }
 #nomargin {
@@ -382,7 +391,7 @@ footer
 	padding: 40px 20px;
 	text-align: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 864px) {
 	.primary-footer {
 		padding-left: 70px;
 		padding-right: 70px;
@@ -406,7 +415,7 @@ text transform
 	width: 165px;
 	margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 864px) {
 	#twitter {
 		float: right;
 		text-align: right;
@@ -427,7 +436,7 @@ map
 	max-width: 100%;
 	border: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 864px) {
 	.map {
 		padding-left: 20px;
 	}
@@ -439,6 +448,7 @@ buttons
 */
 .btn {
 	text-align: center;
+	font-size: 15px;
 }
 .btn a{
 	border: 1px solid #7413dc;
@@ -526,6 +536,9 @@ image styles
 	width: 100px;
 }
 .beaverslogo {
+	width: 250px;
+}
+.cubslogo {
 	width: 250px;
 }
 .scoutslogo {
