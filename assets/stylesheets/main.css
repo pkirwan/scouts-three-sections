@@ -327,7 +327,7 @@ header
 	color: #7413dc;
 	background: #fff;
 }
-@media screen and (min-width: 555px) {
+@media screen and (min-width: 556px) {
 	.nav li {
 		margin: 0px;
 	}
