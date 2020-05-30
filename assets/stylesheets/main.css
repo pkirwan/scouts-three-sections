@@ -484,13 +484,22 @@ banner
 socials
 ==============================================
 */
-.socials {
+#socials {
 	text-align: center;
 	background: #fff;
-	padding: 10px 20px 20px 20px;
+	padding: 10px 20px 10px 20px;
 	min-width: auto;
+	vertical-align: middle;
 }
-
+#socials img {
+	display: inline-block;
+	margin: 0px 15px;
+}
+@media screen and (min-width: 864px) {
+	#socials {
+		height: 180;
+	}
+}
 /*
 ==============================================
 badge images
@@ -500,6 +509,7 @@ badge images
 	line-height: 20px;
 	padding: 11px 11px;
 	text-align: center;
+	vertical-align: middle;
 }
 #badges img {
 	margin: 10px 10px;
@@ -574,6 +584,12 @@ image styles
 .social-logo {
 	height: 30px;
 	width: 30px;
+	vertical-align: middle;
+	margin: 0px 15px;
+}
+.easyfundraising {
+	height: 170px;
+	width: 325px;
 	vertical-align: middle;
 	margin: 0px 15px;
 }
